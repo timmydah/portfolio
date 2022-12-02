@@ -46,8 +46,8 @@ const Speak = () => {
 
   return (
     <div className='speak'>
-      <div className='app__speak'>
-        <h2>Speaking Engaements</h2>
+      <div className='app__speaks'>
+        <h3>Speaking Engaements</h3>
         <p>The art of speaking is an innate attribute of mine that I have developed over the years. 
           I went from being shy and introverted to engaging an audience with thousands of listeners across the globe. 
           I have been privileged to host Twitter spaces, Youtube live streams educating people on how to grow their career 
