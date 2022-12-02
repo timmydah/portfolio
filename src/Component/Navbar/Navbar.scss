@@ -65,8 +65,11 @@
         }
         .mentee{
             background-color: var(--white-color);
-            width: 207px;
-            height: 47px;
+            // width: 207px;
+            // height: 47px;
+            // width: auto;
+            // height: auto;
+            padding: 15px 15px ;
             color: var(--black-color);
             display: flex;
             justify-content: center;
