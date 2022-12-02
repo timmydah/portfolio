@@ -7,8 +7,8 @@
 
 .app__connect{
     flex: 1;
-    // padding: 1rem 4rem;
-    width: 90%;
+    padding: 1rem 3rem;
+    // width: 90%;
     margin: 2rem;
     // overflow-y: hidden;
     // overflow-x: hidden;
@@ -62,8 +62,9 @@
         
 
         div{
-            width: 124px;
-            height: 124px;
+            width: 104px;
+            height: 104px;
+            // padding: 25px;
             background: var(--connect-div);
             // background-color: #fff;
             border-radius: 34px;
@@ -91,13 +92,15 @@
     }
 
     @media screen and (max-width: 1200px) {
-        div{
-            width: 80px;
-            height: 80px;
-        }
+        // div{
+        //     width: 124px;
+        //     height: 124px;
 
-        img{
-            width: 70%;
-        }
+        //     // img{
+        //     //     width: 0%;
+        //     // }
+        // }
+
+        
     }
 }
