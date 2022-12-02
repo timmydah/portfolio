@@ -1,9 +1,9 @@
 .app__navbar {
-    width: 90%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem 0rem 1rem 5rem;
+    padding: 2rem 7rem 1rem 7rem;
     position: fixed;
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
@@ -46,8 +46,8 @@
         background: transparent; 
 
         div{
-            height: 5px;
-            width: 5px;
+            height: 4px;
+            width: 4px;
             border-radius: 50%;
             margin-bottom: 5px;
         }
