@@ -40,7 +40,7 @@
 
     list-style: none;
     li {
-        margin: 0 1rem;
+        margin: 0 1.3rem;
         cursor: pointer;
         flex-direction: column;
         background: transparent; 
@@ -66,7 +66,7 @@
         }
         .mentee{
             background-color: var(--white-color);
-            padding: 15px 15px ;
+            padding: 13px 20px ;
             color: var(--black-color);
             display: flex;
             justify-content: center;
