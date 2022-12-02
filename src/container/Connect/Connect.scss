@@ -7,10 +7,11 @@
 
 .app__connect{
     flex: 1;
-    padding: 1rem 4rem;
+    // padding: 1rem 4rem;
+    width: 90%;
     margin: 2rem;
-    overflow-y: hidden;
-    overflow-x: hidden;
+    // overflow-y: hidden;
+    // overflow-x: hidden;
 
     p{
         font-family: 'Space Grotesk';
@@ -61,8 +62,8 @@
         
 
         div{
-            width: 134px;
-            height: 134px;
+            width: 124px;
+            height: 124px;
             background: var(--connect-div);
             // background-color: #fff;
             border-radius: 34px;
@@ -89,5 +90,10 @@
         }
     }
 
-    
+    @media screen and (max-width: 1200px) {
+        div{
+            width: 80px;
+            height: 80px;
+        }
+    }
 }
