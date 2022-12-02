@@ -48,11 +48,11 @@ const Navbar = ({changeTheme, currentTheme}) => {
         
         {/* Color theme */}
         <li className='app__flex' onClick={changeTheme}>
-            {currentTheme === 'dark' ? (
-              <ImSun className='light' />
-            ) : (
-              <BsFillMoonFill className='dark' />
-            )} 
+          {currentTheme === 'dark' ? (
+            <ImSun className='light' />
+          ) : (
+            <BsFillMoonFill className='dark' />
+          )} 
         </li>
 
         {/* Navbar-menu */}
