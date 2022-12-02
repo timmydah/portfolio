@@ -1,0 +1,100 @@
+article{
+    width: 100%;
+    padding: 1rem 2rem;
+
+    
+}
+.app__article{
+    display: flex;
+    width: 95%;
+    margin: 10rem auto 0;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--article-bg);
+    border-radius: 125px;
+    padding: 5rem;
+    
+    img{
+        width: 100%;
+        max-width: 591px;
+        object-fit: contain;
+    }
+
+    .article__info{
+        width: 100%;
+        max-width: 736px;
+        // margin-left: 3rem;
+
+        h2{
+            font-size: 90px;
+            color: var(--article-h2);
+        }
+
+        p{
+            margin: 2rem 0;
+            font-size: 25px;
+        }
+
+        .article__icon{
+            display: flex;
+            align-items: center;
+            align-self: center;
+
+            p{
+                font-weight: 400;
+
+                line-height: 146.4%;
+
+                // color: #ACD5E6;
+            }
+            svg{
+                // width: 50px;
+                background-color: #fff;
+                padding: 25px;
+                // height: 50px;
+                border-radius: 100px;
+                margin-left: 2rem;
+                
+                
+                .arrow{
+                    // border: 2.4706px dashed #174E86;
+                    color: #174E86;
+                    display: flex;
+                    justify-content: center;
+                    border-radius: 100px;
+                }
+            }
+        }
+
+        @media screen and (max-width: 1200px) {
+    
+            p{
+                font-size: 18px;
+            }
+            h2{
+                font-size: 50px;
+            }
+        }
+    
+    }
+
+    @media screen and (max-width: 1200px) {
+        flex-direction: column;
+        border-radius: 50px;
+        padding: 2rem;
+
+        img{
+            width: 50%;
+            display: flex;
+            margin: 0 auto;
+        }
+    }
+
+
+    @media screen and (min-width: 1200px) {
+        .article__info{
+            margin-left: 3rem;
+        }
+    }
+}
