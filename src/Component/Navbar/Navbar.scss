@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem 7rem 1rem 7rem;
+    padding: 2rem 7rem 3rem 7rem;
     position: fixed;
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
@@ -45,12 +45,13 @@
         flex-direction: column;
         background: transparent; 
 
-        div{
+        div, .div{
             height: 4px;
             width: 4px;
             border-radius: 50%;
             margin-bottom: 5px;
         }
+
         a{
             color: var(--white-color);
             text-decoration: none;
@@ -65,10 +66,6 @@
         }
         .mentee{
             background-color: var(--white-color);
-            // width: 207px;
-            // height: 47px;
-            // width: auto;
-            // height: auto;
             padding: 15px 15px ;
             color: var(--black-color);
             display: flex;

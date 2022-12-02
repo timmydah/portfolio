@@ -39,6 +39,7 @@ const Navbar = ({changeTheme, currentTheme}) => {
             <Link to='works'>Works</Link>
           </li>
           <li className='app__flex'>
+            <span className='div'/>
             <Link className='mentee' to="/mentee">Become a Mentee</Link>
           </li>
 
