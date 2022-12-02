@@ -28,7 +28,7 @@ const Book = () => {
           </div>
           <div className='book__icon'>
             <p>See My Work</p>
-            <Link to='/books'><FaLongArrowAltRight /></Link>
+            <Link to='/books'><FaLongArrowAltRight color='aliceblue'/></Link>
           </div>
         </div>
       </div>

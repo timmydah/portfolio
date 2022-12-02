@@ -9,18 +9,18 @@ import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 
-const workUrl = [images.Riby01, images.Riby02, images.Riby03, images.Riby02, images.Riby01, images.Riby02, images.Riby03,images.Riby01]
+const workUrl = [images.Riby03, images.Riby02, images.Riby03, images.Riby02, images.Riby1, images.Riby02, images.Riby03,images.Riby02]
 const workUrl1 = [images.Riby1, images.Riby2, images.Riby3, images.Riby2, images.Riby1, images.Riby2, images.Riby3,images.Riby1]
 
 const Work = ({changeTheme, currentTheme}) => {
   const settings = {
-    dots: true,
+    // dots: true,
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
     speed: 3000,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 0,
     cssEase: "linear"
   };
 
@@ -35,7 +35,9 @@ const Work = ({changeTheme, currentTheme}) => {
             <div>
               <Slider {...settings}>
                 {workUrl.map((workImg) => (
-                  <img className='img' src={workImg} alt='partners'/>
+                  <div className='logo-img'>
+                    <img src={workImg} alt='partners'/>
+                  </div>
                 ))}
               </Slider>
             </div>
@@ -43,19 +45,25 @@ const Work = ({changeTheme, currentTheme}) => {
             <div>
               <Slider {...settings}>
                 {workUrl1.map((workImg1) => ( 
+                  <div className='logo-img'>
                     <img src={workImg1} alt='partners'/>  
+                  </div>
                 ))}
               </Slider>
             </div>
           )}
         </div>
+
+        <div className='work-profile'>
+          <span>See my Work <FiArrowRight /></span>
+        </div>
         
-        <Link to='/works'>
+        {/* <Link to='/works'>
           <div className='work-profile'>
-            <p>See my Work</p>
-            <FiArrowRight />
+            <p>See my Work <FiArrowRight /></p>
+            
           </div>
-        </Link>
+        </Link> */}
       </div>
     </div>
   )

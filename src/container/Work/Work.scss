@@ -7,7 +7,7 @@
 .Work__Content{
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     align-items: center;
     justify-content: center;
@@ -27,24 +27,27 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        flex-wrap: wrap;
-        width: 90%;
-        margin: 0 auto;
+        width: 100%;
+        // margin: 0 auto;
         overflow-x: hidden;
         overflow-y: hidden;
         
+        .logo-img{
+            overflow-y: hidden;
+            overflow-x: hidden;
+        }
 
         img{
             width: 165px;
             height: 100%;
-            margin-right: 3rem;
+            // margin-right: 1rem;
             overflow-x: hidden;
             overflow-y: hidden;
         }
 
         @media screen and (max-width:1200px) {
             img{
-                width: 800px;
+                width: 80px;
             }
         }
     }
@@ -52,19 +55,17 @@
     .work-profile{
         background: #174E86;
         border-radius: 10px;
-        // padding: 1rem 2rem;
+        padding: 35px 70px;
         margin-top: 3rem;
-        width: 17rem;
-        height: 5rem;
-        display: flex;
-        align-items: center;
-        align-self: center;
-        justify-content: center;
-        align-content: center;
 
-        p{
+        span{
             color: #FFFFFF;
             text-decoration: none;
+            list-style: none;
+            display: flex;
+            width: 100%;
+            align-items: center;
+           
         }
     }
 
