@@ -12,27 +12,27 @@ import {FaLongArrowAltRight} from 'react-icons/fa'
 const Header = () => {
   return (
     <div className='head'>
-      <div id='home' className='app__header'>
+      <div id='home' className='app__header app__flex'>
         <motion.div
-          // whileInView={{ x: [-100, 0], opacity: [0, 100]}}
-          // transition = {{ duration: 0.5 }}
+          whileInView={{ x: [-100, 0], opacity: [0, 100]}}
+          transition = {{ duration: 0.5 }}
           className="app__header-info"
         >
           <div className='app__header-badge'>
             <div className='badge-cmp app__flex'>
               <div>
-                <h3>Hi, I am Grace <br/> Omole</h3>
+                <h3>Hi, I am Grace Omole</h3>
                 <div className='form'>
-                  <p> A Blockchain App Developer,<br/> Technical Writer  and Public <br/> Speaker</p>
+                <p> A Blockchain App Developer, Technical Writer and Public Speaker</p>
+
+                <form>
+                  <input 
+                    placeholder='Get in touch with me' 
                   
-                  <form>
-                    <input 
-                      placeholder='Get in touch with me' 
-                    
-                    />
-                    <button><FaLongArrowAltRight/></button>
-                  </form>  
-                </div>
+                  />
+                  <button><FaLongArrowAltRight/></button>
+                </form>
+              </div>
               </div>
             </div>
           </div>
@@ -57,21 +57,23 @@ const Header = () => {
         </motion.div>
         
         <motion.div
-          // whileInView={{ x: [-100, 0], opacity: [0, 100]}}
-          // transition = {{ duration: 0.5 }}
+          whileInView={{ x: [-100, 0], opacity: [0, 100]}}
+          transition = {{ duration: 0.5 }}
           className="app__header-info2"
         >
-          <div className='app__header-badge2'>
-            <div className='form2'>
-              <p> A Blockchain App Developer,<br></br> Technical Writer and Public <br></br> Speaker</p>
+          <div className='app__header-badge'>
+            <div className='badge-cmp app__flex'>
+              <div className='form2'>
+                <p> A Blockchain App Developer, Technical Writer and Public Speaker</p>
 
-              <form>
-                <input 
-                  placeholder='Get in touch with me' 
-                
-                />
-                <button><FaLongArrowAltRight/></button>
-              </form>
+                <form>
+                  <input 
+                    placeholder='Get in touch with me' 
+                  
+                  />
+                  <button><FaLongArrowAltRight/></button>
+                </form>
+              </div>
             </div>
           </div>
 
