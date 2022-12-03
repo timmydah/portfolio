@@ -28,7 +28,13 @@ const Book = () => {
           </div>
           <div className='book__icon'>
             <p>See My Work</p>
-            <Link to='/books'><FaLongArrowAltRight color='aliceblue'/></Link>
+
+            <Link to='/books'>
+              <div className='link'>
+                <FaLongArrowAltRight/>
+              </div> 
+            </Link>
+
           </div>
         </div>
       </div>

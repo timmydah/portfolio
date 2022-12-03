@@ -2,9 +2,9 @@ import React, { useState } from 'react'
 // import useLocalStorage from 'use-local-storage'
 
 // import {Switch, Route, Link} from 'react-router-dom'
-import { History,Header, Article, Book, Connect, Footer, Speak, Work } from '../../container'
-import { Navbar } from '../../Component'
-// import Scroll from '../Component/Scroll/Scroll'
+import { History,Header, Article, Book, Connect, Speak, Work } from '../../container'
+import { Navbar, Scroll, Footer } from '../../Component'
+
 
 import './Home.scss'
 
@@ -18,8 +18,9 @@ const Home = () => {
 
   return (
     <div className='app' data-theme={theme}>
-      <scroll />
+      
       <Navbar changeTheme={changeTheme} currentTheme={theme}/>
+      <Scroll />
       <Header/>
       <div className='his'>
         <History changeTheme={changeTheme} currentTheme={theme}/>

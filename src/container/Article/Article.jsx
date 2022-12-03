@@ -35,7 +35,12 @@ const Article = ({currentTheme, changeTheme}) => {
 
           <div className='article__icon'>
             <p>Read my articles</p>
-            <Link to='/articles'><FaLongArrowAltRight /></Link>
+            <Link to='/articles'>
+              <div className='link'>
+                <FaLongArrowAltRight /> 
+              </div>
+                        
+            </Link>
           </div>
         </div>
 

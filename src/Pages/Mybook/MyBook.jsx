@@ -1,6 +1,5 @@
 import React, {useState} from 'react'
 import { Navbar, Scroll, Footer } from '../../Component'
-// import Header1 from '../../MybookContainer/header1/header1'
 
 import {Header1, AllBooks} from '../../MybookContainer'
 
