@@ -2,4 +2,25 @@
     height: 100%;
     width: 100%;
     font-family: var(--font-base2);
+
+    h3{
+        font-size: 82px;
+        
+    }
+
+    p{
+        font-size: 30px;
+    }
+
+    @media screen and (max-width: 1200px) {
+        h3{
+            font-size: 40px;
+        }
+
+        p{
+            font-size: 16px;
+        }
+    }
 }
+
+

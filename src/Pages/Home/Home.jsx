@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState} from 'react'
 // import useLocalStorage from 'use-local-storage'
 
 // import {Switch, Route, Link} from 'react-router-dom'
@@ -10,6 +10,7 @@ import './Home.scss'
 
 
 const Home = () => {
+
   const [theme, setTheme] = useState("dark")
 
   const changeTheme = () => {

@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import { Navbar, Scroll, Footer } from '../../Component'
-import { ArticleHeader } from '../../MyArticleContainer'
+import { AllArticle, ArticleHeader } from '../../MyArticleContainer'
 
 import './MyArticle.scss'
 
@@ -16,6 +16,7 @@ const MyArticle = () => {
             <Navbar changeTheme={changeTheme} currentTheme={theme}/>
             <Scroll />
             <ArticleHeader/>
+            <AllArticle/>
             <Footer />
             
 

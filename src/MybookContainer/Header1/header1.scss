@@ -5,11 +5,16 @@
     padding: 9rem 9rem;
     background: linear-gradient(140.6deg, #31539E 29.91%, #142962 89.79%);
     border-radius: 0px 0px 125px 125px;
+
+    @media screen and (max-width: 1200px) {
+        padding: 8rem 0;
+        border-radius: 0px 0px 85px 85px;
+    }
 }
 
 .app_book{
     max-height: 1127px;
-    h2{
+    h3{
         margin-bottom: 2rem;
         color: #fff;
     }
@@ -17,18 +22,26 @@
     p{
         text-align: justify;
         font-size: 30px;
-        margin-bottom: 4rem;
+        // margin-bottom: 4rem;
     }
 
     .arrow{
         display: flex;
         align-items: center;
         justify-content: center;
-        margin: 0 auto;
+        margin: 3rem auto 0;
         height: 4rem;
         width: 4rem;
         background-color: #174E86;
         font-size: 2rem;
         border-radius: 50px;
+    }
+
+    @media screen and (max-width: 1200px) {
+        padding: 0 4rem;
+
+        p{
+            font-size: 16px;
+        }
     }
 }
