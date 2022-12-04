@@ -1,15 +1,38 @@
 import React from 'react'
 
-const AllArticle = () => {
+import './AllArticle.scss'
+import { images } from '../../constant'
 
-    // const articles = [
-    //     {imgUrl:}
-    // ]
+const articles = [
+    { imgUrl: images.Article1, title:'Learning a skill in Web.'},
+    { imgUrl: images.Article1, title:'Learning a skill in Web.'},
+    { imgUrl: images.Article1, title:'Learning a skill in Web.'},
+    { imgUrl: images.Article1, title:'Learning a skill in Web.'},
+    { imgUrl: images.Article1, title:'Learning a skill in Web.'},
+    { imgUrl: images.Article1, title:'Learning a skill in Web.'},
+    { imgUrl: images.Article1, title:'Learning a skill in Web.'},
+    { imgUrl: images.Article1, title:'Learning a skill in Web.'},
+    { imgUrl: images.Article1, title:'Learning a skill in Web.'},
+    { imgUrl: images.Article1, title:'Learning a skill in Web.'},
+    { imgUrl: images.Article1, title:'Learning a skill in Web.'},
+    { imgUrl: images.Article1, title:'Learning a skill in Web.'},
+    { imgUrl: images.Article1, title:'Learning a skill in Web.'},
+    { imgUrl: images.Article1, title:'Learning a skill in Web.'},
+    { imgUrl: images.Article1, title:'Learning a skill in Web.'}
+  ]
+const AllArticle = () => {
     
     return (
         <div className='allArticle__app'>
-            <div className='allAricle'>
-
+            <div className='allArticle'>
+                <div className='allArticle_col1'>
+                    {articles.map((article) => (
+                        <div className='allArticle_col2'>
+                            <img src={article.imgUrl} alt='article' />
+                            <p>{article.title}</p>
+                        </div>
+                    ))}
+                </div>
             </div>
         </div>
     )

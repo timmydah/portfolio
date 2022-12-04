@@ -1,0 +1,42 @@
+.allArticle__app{
+    width: 100%;
+    height: 100%;
+}
+
+.allArticle{
+    width: 80%;
+    margin: 0 auto;
+    padding: 9rem 0 ;
+    display: flex;
+    // justify-content: center;
+}
+
+.allArticle_col1{
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    height: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.allArticle_col2{
+    width: auto;
+    height: 100%;
+    // max-width: 347px;
+    // max-height: 162px;
+    background-color: #F6F3F3;
+    // margin: 1rem;
+
+    img{
+        max-width: 447px;
+        max-height: 262px;
+    }
+
+    p{
+        max-height: 162px;
+        font-size: 30px;
+        color: #000;
+        // max-width: 447px;
+    }
+}

@@ -27,6 +27,7 @@ import youtube from '../asset/youtube.png'
 import medium from '../asset/meduim.png'
 import article2 from '../asset/article2.png'
 import article3 from '../asset/article3.png'
+import Article1 from '../asset/Article1.png'
 
 // import Riby4 from '../asset/Riby4.png'
 
@@ -60,4 +61,5 @@ export default{
     facebook,
     youtube,
     medium,
+    Article1,
   };
