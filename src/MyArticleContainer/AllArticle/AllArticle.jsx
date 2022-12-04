@@ -4,7 +4,7 @@ import './AllArticle.scss'
 import { images } from '../../constant'
 
 const articles = [
-    { imgUrl: images.Article1, title:'Learning a skill in Web.'},
+    { imgUrl: images.Article1, title:'Learning Web3 the easiest way.'},
     { imgUrl: images.Article1, title:'Learning a skill in Web.'},
     { imgUrl: images.Article1, title:'Learning a skill in Web.'},
     { imgUrl: images.Article1, title:'Learning a skill in Web.'},
@@ -29,7 +29,9 @@ const AllArticle = () => {
                     {articles.map((article) => (
                         <div className='allArticle_col2'>
                             <img src={article.imgUrl} alt='article' />
-                            <p>{article.title}</p>
+                            <div className='p-col'>
+                                <p>{article.title}</p>
+                            </div>
                         </div>
                     ))}
                 </div>
