@@ -6,7 +6,7 @@
     border-radius: 0px 0px 125px 125px;
 
     @media screen and (max-width: 1200px) {
-        padding: 8rem 0 5rem;
+        padding: 8rem 2rem 4rem;
         border-radius: 0px 0px 85px 85px;
     }
 }
@@ -37,7 +37,7 @@
     }
 
     @media screen and (max-width: 1200px) {
-        padding: 0 4rem;
+        // padding: 0 4rem;
 
         p{
             font-size: 16px;
