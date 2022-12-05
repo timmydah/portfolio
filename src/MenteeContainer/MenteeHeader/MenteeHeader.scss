@@ -1,0 +1,46 @@
+.mentee_header{
+    width: 100%;
+    height: 100%;
+    padding: 14rem 7rem 5rem;
+    background: linear-gradient(140.6deg, #31539E 29.91%, #142962 89.79%);
+    border-radius: 0px 0px 125px 125px;
+
+    @media screen and (max-width: 1200px) {
+        padding: 8rem 0 5rem;
+        border-radius: 0px 0px 85px 85px;
+    }
+}
+
+.app_mentee{
+    max-height: 1127px;
+    h3{
+        margin-bottom: 1rem;
+        color: #fff;
+    }
+
+    p{
+        text-align: justify;
+        font-size: 30px;
+        // margin-bottom: 4rem;
+    }
+
+    .arrow{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 3rem auto 0;
+        height: 4rem;
+        width: 4rem;
+        background-color: #174E86;
+        font-size: 2rem;
+        border-radius: 50px;
+    }
+
+    @media screen and (max-width: 1200px) {
+        padding: 0 4rem;
+
+        p{
+            font-size: 16px;
+        }
+    }
+}
