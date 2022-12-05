@@ -17,7 +17,7 @@ const Mentee = () => {
     }
 
     return (
-        <div className='app myBook' data-theme={theme}>
+        <div className='ap mentee' >
             <Navbar changeTheme={changeTheme} currentTheme={theme}/>
             <Scroll />
             <MenteeHeader />
