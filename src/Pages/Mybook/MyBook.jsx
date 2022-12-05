@@ -15,7 +15,7 @@ const MyBook = () => {
     }
 
     return (
-        <div className='app myBook' data-theme={theme}>
+        <div className='ap myBook'>
             <Navbar changeTheme={changeTheme} currentTheme={theme}/>
             <Scroll />
             <Header1/>

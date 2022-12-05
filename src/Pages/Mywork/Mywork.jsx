@@ -13,7 +13,7 @@ const Mywork = () => {
         theme === "dark" ? setTheme('light') : setTheme('dark')
     }
     return (
-        <div className='app' data-theme={theme}>
+        <div className='ap mywork'>
             <Navbar changeTheme={changeTheme} currentTheme={theme}/>
             <Scroll />
             <WorkHeader />

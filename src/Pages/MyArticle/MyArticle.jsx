@@ -12,7 +12,7 @@ const MyArticle = () => {
         theme === "dark" ? setTheme('light') : setTheme('dark')
     }
     return (
-        <div className='app' data-theme={theme}>
+        <div className='ap myarticle'>
             <Navbar changeTheme={changeTheme} currentTheme={theme}/>
             <Scroll />
             <ArticleHeader/>
