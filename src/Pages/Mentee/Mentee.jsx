@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import { Navbar, Scroll, Footer } from '../../Component'
+import MenteeForm from '../../MenteeContainer/MenteeForm/MenteeForm'
 import MenteeHeader from '../../MenteeContainer/MenteeHeader/MenteeHeader'
 
 // import {Header1, AllBooks} from '../../MybookContainer'
@@ -20,6 +21,7 @@ const Mentee = () => {
             <Navbar changeTheme={changeTheme} currentTheme={theme}/>
             <Scroll />
             <MenteeHeader />
+            <MenteeForm />
             <Footer />
         </div>
     )
