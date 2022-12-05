@@ -6,12 +6,12 @@
 .workContent_col1{
     padding: 7rem 7rem 7rem 7rem;
     @media screen and (max-width:1200px) {
-        padding: 3rem 1rem;
+        padding: 1rem 1rem;
     }
 }
 
 .workContent_col2{
-    // margin-top: 44rem;
+    margin-top: 7rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 5rem;
@@ -65,7 +65,7 @@
     }
 
     @media screen and (max-width: 1200px) {
-        margin-top: 3rem;
+        margin-top: 5rem;
         grid-template-columns: 1fr;
         gap: 1rem;
 
