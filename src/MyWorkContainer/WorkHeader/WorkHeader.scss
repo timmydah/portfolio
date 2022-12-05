@@ -1,0 +1,93 @@
+.app__work{
+    width: 100%;
+    height: 100%;
+}
+
+.work__col{
+    width: 100%;
+    padding: 18rem 0rem 9rem 7rem ;
+    background: linear-gradient(140.6deg, #31539E 29.91%, #142962 89.79%);
+    border-radius: 0px 0px 125px 125px;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    // display: flex;
+    // justify-content: space-between;
+    gap: 4rem;
+
+
+    .work__col1{
+        // flex: 1;
+        // width: 50%;
+        // display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    
+        h3{
+            margin-bottom: 2rem;
+        }
+    
+        .work_download{
+            margin-top: 1rem;
+            display: flex;
+            align-items: center;
+            
+    
+            // .download{
+            //     // padding: 10px 35px;
+            //     background: #ACD5E6;
+            //     border-radius: 25px;
+            //     margin-right: 2rem;
+            //     height: 4rem;
+            //     width: 20rem;
+            //     display: flex;
+            //     align-items: center;
+            //     justify-content: center;
+            // }
+    
+            button{
+                padding: 1rem 3rem;
+                border-radius: 2rem;
+                border: none;
+                color: #000;
+                // box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+                margin-right: 2rem;
+                background: #ACD5E6;
+                font-size: 20px;
+    
+            }
+            .svg{
+                background: #174E86;
+                border-radius: 25px;
+                height: 4rem;
+                width: 4rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                // padding: 10px 35px;
+            }
+        }
+    
+    }
+    
+    .work__col2{
+        // flex: 1;
+        // width: 40%;
+    
+        img{
+            // max-width: 628px;
+            width: 100%;
+        }
+    }
+
+    @media screen and (max-width: 1200px) {  
+        grid-template-columns: 1fr;
+        padding: 18rem 2rem 7rem;
+        border-radius: 0px 0px 65px 65px;
+
+        .work__col2{
+            display: none;
+        }
+    }
+}
+

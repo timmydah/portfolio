@@ -28,6 +28,8 @@ import medium from '../asset/meduim.png'
 import article2 from '../asset/article2.png'
 import article3 from '../asset/article3.png'
 import Article1 from '../asset/Article1.png'
+import work0 from '../asset/work0.png'
+import work1 from '../asset/work1.png'
 
 // import Riby4 from '../asset/Riby4.png'
 
@@ -36,6 +38,8 @@ export default{
     Image,
     article2,
     article3,
+    work0,
+    work1,
     sig,
     arrow,
     background,

@@ -36,6 +36,11 @@ const AllArticle = () => {
                     ))}
                 </div>
             </div>
+            
+            <div className='more'>
+                <p>loading more articles </p>
+            </div>
+            
         </div>
     )
 }

@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import { Navbar, Scroll, Footer } from '../../Component'
-// import { ArticleHeader } from '../../MyArticleContainer'
+import { WorkHeader, WorkContent } from '../../MyWorkContainer'
+
 
 import './Mywork.scss'
 
@@ -15,7 +16,8 @@ const Mywork = () => {
         <div className='app' data-theme={theme}>
             <Navbar changeTheme={changeTheme} currentTheme={theme}/>
             <Scroll />
-            {/* <ArticleHeader/> */}
+            <WorkHeader />
+            <WorkContent />
             <Footer />
             
 
