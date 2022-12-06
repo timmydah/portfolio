@@ -9,8 +9,14 @@
         // top: 10;
         z-index: 1;
 
+        @media screen and (max-width: 320px) {
+            // bottom: 150px;
+            top: -120px;
+        }
+
         @media screen and (max-width: 450px) {
-            bottom: 180px;
+            // bottom: 300px;
+            top: -90px;
         }
 
         @media screen and (max-width: 1200px) {

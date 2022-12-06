@@ -70,7 +70,13 @@
 
 
     @media screen and (max-width: 450px) {
-        padding: 10rem 1rem 2rem;
+        padding: 9rem 0rem 0rem;
+
+        form{
+            input{
+                font-size: 13px;
+            }
+        }
     }
 }
 
@@ -153,10 +159,10 @@
         margin-top: 1rem;
 
         position: absolute;
-        right: 0;
+        // left: 0;
         bottom: 0;
         top: 40%;
-        right: 0;
+        right: -20px;
         z-index: 1;
 
         box-shadow: 0 0 20px rgba(0,0,0,0.1);
