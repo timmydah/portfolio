@@ -1,20 +1,12 @@
 .app__book{
     display: flex;
     justify-content: center;
-    width: 70%;
+    width: 90%;
     margin: 6rem auto 0;
-
-    h2{
-        line-height: 115px;
-    }
-    
-    p{
-        margin: 2rem 0;
-    }
 
     @media screen and (max-width: 900px) {
 
-        margin-top: 7rem;
+        margin-top: 5rem;
         
         h2{
             font-size: 50px;
@@ -35,6 +27,7 @@
 .book__img{
     display: flex;
     justify-content: space-between;
+    margin-top: 1rem;
 
     img{
         object-fit: contain;
@@ -61,7 +54,7 @@
         flex-direction: column;
     }
     .book__icon{
-        align-self: center;
+        align-self: flex-start;
     }
     .subbook__img{
         // flex-direction: column;

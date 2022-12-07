@@ -14,9 +14,6 @@
     .articles__col1{
         width: 758px;
         max-width: 70%;
-        h2{
-            margin-bottom: 2rem;
-        }
     }
 
     .articles__col2{
@@ -52,7 +49,7 @@
 
     @media screen and (max-width: 1200px) {
         border-radius: 0px 0px 65px 65px;
-        padding: 7rem 1rem 0;
+        padding: 6rem 1rem 1rem;
         display: flex;
 
         .articles__col1{
@@ -60,7 +57,7 @@
             max-width: 100%;
 
             h2{
-                margin-bottom: 1rem;
+                // margin-bottom: 0rem;
             }
         }
 

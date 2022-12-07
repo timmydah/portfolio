@@ -14,6 +14,7 @@ const Book = () => {
         <p>I currently have 2 well-detailed ebooks on Web 3 authored by me,the first one titled “Getting Started in Web 3” is free and it gives you
             an insight into what the concept is all about. 
         </p>
+        <br></br>
         <p>
           The second book is currently sold for 
           10,000 naira here and it is titled “How To Position Yourself To Earn In Web 3”, 

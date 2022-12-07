@@ -5,8 +5,8 @@
     .his{
         width: 100%;
         position: relative;
-        bottom: 240px;
-        // top: 10;
+        // bottom: 0px;
+        top: -250PX;
         z-index: 1;
 
         @media screen and (max-width: 320px) {
