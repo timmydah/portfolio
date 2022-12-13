@@ -74,11 +74,13 @@ const Speak = () => {
                       <img src={speak.imgUrl} alt={speak.title} />
                     </div>
                     
-                    <h4 className='bold-text'>{speak.title}</h4>
-                    <div className='location'>
-                      <span>{speak.location} </span>
-                      <div className='dot'></div>
-                      <span>{speak.time}</span>
+                    <div className='speak_col'>
+                      <h4 className='bold-text'>{speak.title}</h4>
+                      <div className='location'>
+                        <span>{speak.location} </span>
+                        <div className='dot'></div>
+                        <span>{speak.time}</span>
+                      </div>
                     </div>
                   </div>
                 </div>

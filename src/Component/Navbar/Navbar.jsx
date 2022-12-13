@@ -32,7 +32,8 @@ const Navbar = ({changeTheme, currentTheme}) => {
           </li>
           <li className='app__flex'>
             <div />
-            <Link to="/articles">Articles</Link>
+            <a href='https://iam-grace.medium.com/' target="_blank" rel="noreferrer">Articles</a>
+            {/* <Link to="/articles">Articles</Link> */}
           </li>
           <li className='app__flex'>
             <div />

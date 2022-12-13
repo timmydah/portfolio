@@ -45,8 +45,8 @@
     justify-content: center;
     // align-items: flex-start;
     margin-top: 2rem;
-    overflow: auto;
-    // position: relative;
+    // overflow: auto;
+    position: relative;
     &::-webkit-scrollbar{
         display: none;
     }
@@ -61,8 +61,8 @@
         z-index: 1;
 
         button{
-            width: 60px;
-            height: 60px;
+            width: 50px;
+            height: 50px;
             border-radius: 70px;
             background: #174E86;
             opacity: 0.3;
@@ -74,37 +74,38 @@
 .pp{
     // display: flex;
     // flex-direction: column;
-    display: grid;
+    // display: grid;
     // grid-template-columns: repeat(auto, 1fr);
-    gap: 12rem;
+    // gap: 12rem;
+    display: flex;
+    justify-content: center;
 }
 
 .app_profile-items{
     width: 100%;
-    background-color: var(--history-bg);
-    border-radius: 34px;
-    // display: flex;
-    // align-items: center;
-    // justify-content: center;
-    // margin: 0.5rem;
-    // display: grid;
-    // grid-template-columns: repeat(auto, 1fr);
-    // gap: 12rem;
-    // margin: 1rem;
 
     .space{
-        // display: flex;
-        // flex-direction: column;
+        background-color: var(--history-bg);
+        width: 95%;
+        max-width: 350px;
+        margin: 0 auto;
+        height: 100%;
+        padding: 15px;
+        border-radius: 34px;
     }
 
     img{
-        width: 80%;
-        
-        padding: 1rem 0;
+        width: 100%;
         object-fit: cover;
         display: flex;
         margin: 0 auto;
         
+    }
+
+    .speak_col{
+        text-align: center;
+        width: 100%;
+        margin: 1rem 2rem 0rem;
     }
 
     h4{
@@ -113,14 +114,13 @@
         font-size: 14px;
         line-height: 38px;
         color: var(--primary-color);
-        margin: 1rem 0 0.5rem 4rem;
     }
 
     .location{
         display: flex;
         align-items: center;
-        margin-left: 4rem;
-        margin-bottom: 2rem;
+        // margin-left: 4rem;
+        // margin-bottom: 2rem;
 
         span{
             font-style: normal;
@@ -128,7 +128,7 @@
             font-size: 11px;
             line-height: 23px;
             color: #646464;
-            margin: 0;
+            // margin: 0;
         }
 
         @media screen and (max-width: 1200px) {
@@ -140,7 +140,7 @@
         }
     }
     .dot{
-        background-color: greenyellow;
+        background-color: #C4C4C4;
         width: 10px;
         height: 10px;
         border-radius: 50px;
