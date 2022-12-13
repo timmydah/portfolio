@@ -5,10 +5,17 @@ import {Link} from 'react-router-dom'
 import {images} from '../../constant';
 import {FaLongArrowAltRight} from 'react-icons/fa'
 
+import {motion} from 'framer-motion'
+
 const Book = () => {
   return (
     <div className='app__book'>
-      <div className='book__content'>
+      {/* <div className='book__content'> */}
+      <motion.div
+        whileInView={{ opacity: [0, 1] }}
+        transition={{ duration: 0.9 }}
+        className="book__content"
+      >
         <h2>Books</h2>
 
         <p>I currently have 2 well-detailed ebooks on Web 3 authored by me,the first one titled “Getting Started in Web 3” is free and it gives you
@@ -38,8 +45,8 @@ const Book = () => {
 
           </div>
         </div>
-      </div>
-
+      {/* </div> */}
+      </motion.div>
     </div>
   )
 }

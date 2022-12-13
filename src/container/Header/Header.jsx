@@ -14,7 +14,7 @@ const Header = () => {
     <div className='head'>
       <div id='home' className='app__header'>
         <motion.div
-          whileInView={{ x: [-100, 0], opacity: [0, 100]}}
+          whileInView={{ x: [-90, 0], opacity: [0, 100]}}
           transition = {{ duration: 0.5 }}
           className="app__header-info"
         >
@@ -57,8 +57,8 @@ const Header = () => {
         </motion.div>
         
         <motion.div
-          whileInView={{ x: [-100, 0], opacity: [0, 100]}}
-          transition = {{ duration: 0.5 }}
+          // whileInView={{ x: [-100, 0], opacity: [0, 100]}}
+          // transition = {{ duration: 0.5 }}
           className="app__header-info2"
         >
           <div className='app__header-badge2'>

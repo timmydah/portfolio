@@ -8,6 +8,7 @@ import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 
 import {FaChevronLeft, FaChevronRight} from 'react-icons/fa'
+import {motion} from 'framer-motion'
 
 const events = [
   { imgUrl: images.speak1, title:'Learning a skill in Web3.', location: 'Lagos, Nigeria.', time:'April 3rd, 2022'},
@@ -46,7 +47,11 @@ const Speak = () => {
 
   return (
     <div className='speak'>
-      <div className='app__speaks'>
+      <motion.div
+        whileInView={{ opacity: [0, 1] }}
+        transition={{ duration: 0.6 }}
+        className="app__speaks"
+      >
         <h3>Speaking Engaements</h3>
         <p>The art of speaking is an innate attribute of mine that I have developed over the years. 
           I went from being shy and introverted to engaging an audience with thousands of listeners across the globe. 
@@ -88,7 +93,7 @@ const Speak = () => {
             </Slider>
           </div>
         </div>
-      </div>
+      </motion.div>
     </div>
   )
 }

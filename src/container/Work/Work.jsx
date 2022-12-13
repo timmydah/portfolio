@@ -2,6 +2,7 @@ import React from 'react'
 import './Work.scss'
 import {images} from '../../constant'
 import {FiArrowRight} from 'react-icons/fi'
+import {motion} from 'framer-motion'
 // import {Link} from 'react-router-dom'
 
 import Slider from 'react-slick'
@@ -26,7 +27,12 @@ const Work = ({changeTheme, currentTheme}) => {
 
   return (
     <div className='app__work'>
-      <div className='Work__Content'>
+      {/* <div className='Work__Content'> */}
+      <motion.div
+        whileInView={{ opacity: [0, 1] }}
+        transition={{ duration: 0.6 }}
+        className="Work__Content"
+      >
         <h2>Works</h2>
         <p>Some of the companies I have helped</p>
 
@@ -64,7 +70,7 @@ const Work = ({changeTheme, currentTheme}) => {
             
           </div>
         </Link> */}
-      </div>
+      </motion.div>
     </div>
   )
 }

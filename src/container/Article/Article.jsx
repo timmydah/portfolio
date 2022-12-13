@@ -6,15 +6,22 @@ import {FaLongArrowAltRight} from 'react-icons/fa'
 
 import {images} from '../../constant';
 
+import {motion} from 'framer-motion'
+
 const Article = ({currentTheme, changeTheme}) => {
   return (
     <div className='article'>
-      <div className='app__article'>
+      {/* <div className='app__article'> */}
+      <motion.div
+        whileInView={{ x: [-100, 0], opacity: [0, 100]}}
+        transition = {{ duration: 0.7 }}
+        className="app__article"
+      >
         <div className='article__content'>
           {currentTheme === 'dark' ? (
              <img src={images.article} alt='article' />
           ): (
-            <img src={images.article2} alt='article' />
+            <img src={images.article} alt='article' />
           )}
         </div>
 
@@ -46,7 +53,8 @@ const Article = ({currentTheme, changeTheme}) => {
           </div>
         </div>
 
-      </div>
+      {/* </div> */}
+      </motion.div>
     </div>
   )
 }

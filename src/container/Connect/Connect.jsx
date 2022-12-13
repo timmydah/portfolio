@@ -20,7 +20,12 @@ const Connect = () => {
 
   return (
     <div className='connect'>
-      <div className='app__connect'>
+      {/* <div className='app__connect'> */}
+      <motion.div
+        whileInView={{ x: [-100, 0], opacity: [0, 100]}}
+        transition = {{ duration: 0.5 }}
+        className="app__connect"
+      >
         <p>
           If you’ve been searching for the right person to guide you through everything relating 
           to frontend development and blockchain technology, great news,<span>you are in the right
@@ -35,7 +40,7 @@ const Connect = () => {
           {sm.map((media, index) => (
             <motion.div
             whileInView={{ opacity: 1}}
-            whileHover={{ scale:1}}
+            whileHover={{ scale:1.05}}
             transition={{ duration: 0.5, type: 'tween'}}
             className='app__profile-items'
             key={media.title + index}
@@ -51,7 +56,7 @@ const Connect = () => {
 
 
         </div>
-      </div>
+      </motion.div>
     </div>
   )
 }

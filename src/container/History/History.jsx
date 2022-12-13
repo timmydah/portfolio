@@ -13,7 +13,7 @@ const History = () => {
           {/* <div className='content__col'> */}
           <motion.div
             whileInView={{ opacity: [0, 1] }}
-            transition={{ duration: 0.9 }}
+            transition={{ duration: 0.6 }}
             className="content__col"
           >
             <div className='app__history_info2'>
@@ -51,7 +51,13 @@ const History = () => {
 
             </div>
 
-            <div className='skills__col'>
+            {/* <div className='skills__col'> */}
+
+            <motion.div
+              whileInView={{ x: [-100, 0], opacity: [0, 100]}}
+              transition = {{ duration: 0.7 }}
+              className="skills__col"
+            >
               <h2>Major Skills</h2>
               <div className='img__history2'>
                 <div className='sub__img sub__img2'>
@@ -71,7 +77,7 @@ const History = () => {
                   </div>
                 </div> 
               </div>
-            </div>
+            </motion.div>
           </motion.div>
         </div>
       </div>
