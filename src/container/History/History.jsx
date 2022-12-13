@@ -3,13 +3,19 @@ import './History.scss'
 import {Link} from 'react-router-dom'
 
 import { images } from '../../constant'
+import {motion} from 'framer-motion'
 
 const History = () => {
   return (
     <div>
       <div className='app__history history2'>
         <div className='history__content2'>
-          <div className='content__col'>
+          {/* <div className='content__col'> */}
+          <motion.div
+            whileInView={{ opacity: [0, 1] }}
+            transition={{ duration: 0.9 }}
+            className="content__col"
+          >
             <div className='app__history_info2'>
               <h2>Brief History</h2>
               
@@ -66,7 +72,7 @@ const History = () => {
                 </div> 
               </div>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>
