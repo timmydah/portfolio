@@ -49,16 +49,23 @@
     justify-content: center;
     flex-wrap: wrap;
 
+
     .app__profile-items{
         margin-top: 2rem;
+
+        a{
+            text-decoration: none;
+        }
+
+        p{
+            font-size: 11px;
+            cursor: pointer;
+        }
         
 
         div{
             width: 54px;
             height: 54px;
-            // padding: 25px;
-            // background: var(--connect-div);
-
             background-color: #fff;
             border-radius: 34px;
             display: flex;
@@ -70,11 +77,15 @@
             img{
                 width: auto;
             }
+
+        &:hover{
+            width: 10%;
+        }
             
         }
 
         .media_name{
-            margin: 1rem 0;
+            // margin: 1rem 0;
             text-align: center;
             font-family: 'Space Grotesk';
             font-style: normal;

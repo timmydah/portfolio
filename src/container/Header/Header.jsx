@@ -12,12 +12,13 @@ import {FaLongArrowAltRight} from 'react-icons/fa'
 const Header = () => {
   return (
     <div className='head'>
-      <div id='home' className='app__header'>
-        <motion.div
-          whileInView={{ x: [-90, 0], opacity: [0, 100]}}
-          transition = {{ duration: 0.5 }}
-          className="app__header-info"
-        >
+      
+      <motion.div
+        whileInView={{ x: [-90, 0], opacity: [0, 100]}}
+        transition = {{ duration: 0.5 }}
+        id='home' className='app__header'
+      >
+        <div  className="app__header-info">
           <div className='app__header-badge'>
             <div className='badge-cmp app__flex'>
               <div>
@@ -37,7 +38,7 @@ const Header = () => {
             </div>
           </div>
 
-        </motion.div>
+        </div>
 
         <motion.div
           whileInView={{ x: [-100, 0], opacity: [0, 100]}}
@@ -74,11 +75,12 @@ const Header = () => {
               </form>
             </div>
           </div>
+          
 
         </motion.div>
         
 
-      </div>
+      </motion.div>
 
     </div>
   )

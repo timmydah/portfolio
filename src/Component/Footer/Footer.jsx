@@ -14,22 +14,34 @@ const Footer = () => {
           <p>Connect with me</p>
           <div>
             <div className='sm-border'>
-              <FaLinkedinIn className='sm'/>
+              <a href='https://www.linkedin.com/in/grace-olayinka-a9a37a188' target="_blank">
+                <FaLinkedinIn className='sm'/>
+              </a>
             </div>
             <div className='sm-border'>
-              <FaTwitter className='sm'/>
+              <a href='https://twitter.com/graceomole3?s=21&t=kgJmisAScjnGXj5lcAm6Qw' target="_blank">
+                <FaTwitter className='sm'/>
+              </a>
             </div>
             <div className='sm-border'>
-              <FaMedium className='sm'/>
+              <a href='https://iam-grace.medium.com/' target="_blank">
+                <FaMedium className='sm'/>
+              </a>
             </div>
             <div className='sm-border'>
-              <FaInstagram className='sm'/>
+              <a href='https://instagram.com/olayinka2241?igshid=YmMyMTA2M2Y=' target="_blank">
+                <FaInstagram className='sm'/>
+              </a>
             </div>
             <div className='sm-border'>
-              <FaYoutube className='sm'/>
+              <a href='https://m.youtube.com/channel/UCenVuRqWJJTjAPMo7qH-1yQ?fbclid=PAAabLXZHMTyrcVUmkdIRHebkxJc9cQpxlK-jxRpJAunMNCN-6HFvih8A4PHU' target="_blank">
+                <FaYoutube className='sm'/>
+              </a>
             </div>
             <div className='sm-border'>
-              <FaFacebookF className='sm'/>
+              <a href='' target="_blank">
+                <FaFacebookF className='sm'/>
+              </a>
             </div>
             
           </div>

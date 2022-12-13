@@ -1,5 +1,6 @@
 import React from 'react'
 import Home from './Pages/Home/Home'
+import MyBook from './Pages/Mybook/MyBook'
 import MyBook2 from './Pages/Mybook2/MyBook2'
 import {Routes, Route} from 'react-router-dom'
 
@@ -15,10 +16,12 @@ const App = () => {
       
       <Routes>
         <Route exact path='/' element={<Home/>}/>
-        <Route exact path='/books' element={<MyBook2/>}/>
+        <Route exact path='/books' element={<MyBook/>}/>
         {/* <Route exact path='/articles' element={<MyArticle/>}/> */}
         <Route exact path='/works' element={<Mywork/>}/>
         <Route exact path='/mentee' element={<Mentee />} />
+        <Route exact path='/Mybook2' element={<MyBook2 />} />
+
       </Routes>
         
     </div>

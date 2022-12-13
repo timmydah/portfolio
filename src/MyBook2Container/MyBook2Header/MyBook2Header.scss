@@ -1,16 +1,17 @@
 .app__book2{
     width: 100%;
     height: 100%;
+    background: linear-gradient(140.6deg, #31539E 29.91%, #142962 89.79%);
+    border-radius: 0px 0px 75px 75px;
 }
 
 .book2__col{
-    width: 100%;
-    padding: 12rem 0rem 9rem 7rem ;
-    background: linear-gradient(140.6deg, #31539E 29.91%, #142962 89.79%);
-    border-radius: 0px 0px 125px 125px;
+    width: 83%;
+    padding: 10rem 0rem 4rem 0rem ;  
     overflow: hidden;
+    margin: 0 auto;
     display: grid;
-    grid-template-columns: 1.0fr 0.7fr;
+    grid-template-columns: 1.0fr 1fr;
     gap: 7rem;
 
 
@@ -21,6 +22,10 @@
         h3{
             margin-bottom: 2rem;
         }
+
+        p{
+            line-height: 31px;
+        }
     
         .book2_download{
             margin-top: 1rem;
@@ -28,14 +33,14 @@
             align-items: center;
  
             button{
-                padding: 1rem 3rem;
+                padding: 1rem 2rem;
                 border-radius: 2rem;
                 border: none;
                 color: #000;
                 // box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
                 margin-right: 2rem;
                 background: #ACD5E6;
-                font-size: 20px;
+                font-size: 12px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -61,19 +66,19 @@
     
         img{
             max-width: 428px;
-            width: 70%;
+            width: 50%;
             // object-fit: contain;
         }
     }
 
-    @media screen and (max-width: 1200px) {  
+    @media screen and (max-width: 800px) {  
         grid-template-columns: 1fr;
         
-        padding: 8rem 1rem 7rem;
+        padding: 8rem 1rem 3rem;
         border-radius: 0px 0px 65px 65px;
 
         .book2__col2{
-            display: none;
+            margin: 0;
         }
 
         button{
