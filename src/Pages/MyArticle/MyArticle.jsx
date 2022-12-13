@@ -1,27 +1,30 @@
-import React, {useState} from 'react'
-import { Navbar, Scroll, Footer } from '../../Component'
-import { AllArticle, ArticleHeader } from '../../MyArticleContainer'
+// import React from 'react'
+// import { Navbar, Scroll, Footer } from '../../Component'
+// import { AllArticle, ArticleHeader } from '../../MyArticleContainer'
+// import {BrowserRouter as Router, Link, Route, Routes} from 'react-router-dom';
 
 import './MyArticle.scss'
 
 const MyArticle = () => {
 
-    const [theme, setTheme] = useState("dark")
+    window.location.href = 'https://iam-grace.medium.com/';
+    return null;
 
-    const changeTheme = () => {
-        theme === "dark" ? setTheme('light') : setTheme('dark')
-    }
-    return (
-        <div className='ap myarticle'>
-            <Navbar changeTheme={changeTheme} currentTheme={theme}/>
-            <Scroll />
-            <ArticleHeader/>
-            <AllArticle/>
-            <Footer />
+    // return (
+    //     // <div>
+    //     //     window.location.href = 'https://google.com';
+    //     //     return null;
+    //     // </div>
+    //     // <div className='ap myarticle'>
+    //     //     <Navbar />
+    //     //     <Scroll />
+    //     //     <ArticleHeader/>
+    //     //     <AllArticle/>
+    //     //     <Footer />
             
 
-        </div>
-  )
+    //     // </div>
+    // )
 }
 
 export default MyArticle

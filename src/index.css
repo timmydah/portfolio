@@ -8,6 +8,7 @@
   --background: linear-gradient(121.53deg, #070B28 17.18%, #0A0D21 84.45%);
   --header: linear-gradient(121.53deg, #070B28 17.18%, #0A0D21 84.45%); 
   --main-color: #ACD5E6;
+  --button-color: #174E86;
   --primary-color: #ffffff;
   --dark-grey: #3C3C3C;
   --deep-blue: #031527;
@@ -19,6 +20,7 @@
   --hover-color: #ffc0cb;
   --black-color: #000;
   --connect-div: #031527;
+  --form-color: #AcD5E6;
 }
 
 [data-theme='light'] {
@@ -26,13 +28,15 @@
   --header: #31539E;
   --background: #ACD5E6;
   --main-color: #174E86;
+  --button-color: #ACD5E6;
   --primary-color: #000000;
   --dark-grey: #3C3C3C;
   --deep-blue: #031527;
   --history-bg : #ffffff;
-  --article-bg: #31539E ;
+  --article-bg: linear-gradient(140.6deg, #31539E 29.91%, #142962 89.79%);
   --article-h2: #ffffff;
   --connect-div: #F5F5F5;
+  --form-color: #ffffff;
 }
 
 * {

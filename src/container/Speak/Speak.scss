@@ -8,7 +8,7 @@
     justify-content: center;
 
     @media screen and (max-width: 1200px) {
-        padding: 1rem 3rem;
+        padding: 1rem 1rem;
         margin: 5rem 0;
     }
 }
@@ -17,31 +17,24 @@
     // flex: 1;
 
     h3{
-        font-style: normal;
-        font-weight: 700;
-        font-size: 80px;
         color: var(--main-color);
-        margin-bottom: 2rem;
+        margin-bottom: 1.5rem;
     }
 
     p{
-        font-family: 'Space Grotesk';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 30px;
-        line-height: 48px;
-        margin-bottom: 5rem;
+        line-height: 28px;
+
         
     }
 
     @media screen and (max-width: 1200px) {
         padding: 0rem 1rem;
         p{
-            font-size: 18px;
+            // font-size: 18px;
             margin-bottom: 3rem;
         }
         h3{
-            font-size: 30px;
+            // font-size: 30px;
             margin-bottom: 2rem;
         }
     }
@@ -53,7 +46,7 @@
     // align-items: flex-start;
     margin-top: 2rem;
     overflow: auto;
-    position: relative;
+    // position: relative;
     &::-webkit-scrollbar{
         display: none;
     }
@@ -78,14 +71,31 @@
     }
 }
 
+.pp{
+    // display: flex;
+    // flex-direction: column;
+    display: grid;
+    // grid-template-columns: repeat(auto, 1fr);
+    gap: 12rem;
+}
+
 .app_profile-items{
     width: 100%;
     background-color: var(--history-bg);
     border-radius: 34px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0.5rem;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    // margin: 0.5rem;
+    // display: grid;
+    // grid-template-columns: repeat(auto, 1fr);
+    // gap: 12rem;
+    // margin: 1rem;
+
+    .space{
+        // display: flex;
+        // flex-direction: column;
+    }
 
     img{
         width: 80%;
@@ -100,7 +110,7 @@
     h4{
         font-weight: 700;
         width: 258px;
-        font-size: 30px;
+        font-size: 14px;
         line-height: 38px;
         color: var(--primary-color);
         margin: 1rem 0 0.5rem 4rem;
@@ -115,7 +125,7 @@
         span{
             font-style: normal;
             font-weight: 500;
-            font-size: 18px;
+            font-size: 11px;
             line-height: 23px;
             color: #646464;
             margin: 0;

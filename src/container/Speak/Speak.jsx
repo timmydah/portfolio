@@ -62,26 +62,29 @@ const Speak = () => {
             <button onClick={sliderRef?.slickNext}>
               <FaChevronRight  />
             </button>
-          </div>
+          </div>        
 
-          <Slider ref={setSliderRef} {...sliderSettings}>
-            {events.map((speak, index) => (
-              <div className='app_profile-items'> 
-                <div className='space'>
-                  <div>
-                    <img src={speak.imgUrl} alt={speak.title} />
-                  </div>
-                  
-                  <h4 className='bold-text'>{speak.title}</h4>
-                  <div className='location'>
-                    <span>{speak.location} </span>
-                    <div className='dot'></div>
-                    <span>{speak.time}</span>
+          <div className='pp'>
+
+            <Slider ref={setSliderRef} {...sliderSettings}>
+              {events.map((speak, index) => (
+                <div className='app_profile-items'> 
+                  <div className='space'>
+                    <div>
+                      <img src={speak.imgUrl} alt={speak.title} />
+                    </div>
+                    
+                    <h4 className='bold-text'>{speak.title}</h4>
+                    <div className='location'>
+                      <span>{speak.location} </span>
+                      <div className='dot'></div>
+                      <span>{speak.time}</span>
+                    </div>
                   </div>
                 </div>
-              </div>
-            ))}
-          </Slider>
+              ))}
+            </Slider>
+          </div>
         </div>
       </div>
     </div>

@@ -9,11 +9,11 @@
         margin-top: 5rem;
         
         h2{
-            font-size: 50px;
+            // font-size: 50px;
         }
 
         p{
-            font-size: 18px;
+            // font-size: 18px;
         }
     }
 }
@@ -27,7 +27,7 @@
 .book__img{
     display: flex;
     justify-content: space-between;
-    margin-top: 1rem;
+    margin-top: 3rem;
 
     img{
         object-fit: contain;
@@ -49,13 +49,18 @@
         margin-left: 2rem;
     }
 
+    .book__icon{
+        align-self: center;
+    }
 
     @media screen and (max-width: 1200px) {
         flex-direction: column;
+
+        .book__icon{
+            align-self: flex-start;
+        }
     }
-    .book__icon{
-        align-self: flex-start;
-    }
+    
     .subbook__img{
         // flex-direction: column;
         flex-direction: row;

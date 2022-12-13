@@ -11,10 +11,10 @@ import './Home.scss'
 
 const Home = () => {
 
-  const [theme, setTheme] = useState("dark")
+  const [theme, setTheme] = useState("light")
 
   const changeTheme = () => {
-    theme === "dark" ? setTheme('light') : setTheme('dark')
+    theme === "light" ? setTheme('dark') : setTheme('light')
   }
 
   return (
