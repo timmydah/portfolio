@@ -44,6 +44,12 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                transition: 0.9s ease-in-out;
+                cursor: pointer;
+                &:hover {
+                    background: var(--background);
+                    color: aliceblue;
+                }
     
             }
             .svg{
@@ -57,13 +63,16 @@
                 // padding: 10px 35px;
             }
         }
-    
+        @media screen and (min-width: 800px) {
+            .articles__col5{
+                display: none;
+            }
+        }
+        
     }
     
     .book2__col2{
-        // flex: 1;
-        // width: 40%;
-    
+
         img{
             max-width: 428px;
             width: 50%;
@@ -79,12 +88,19 @@
 
         .book2__col2{
             margin: 0;
+            display: none;
         }
 
         button{
             padding: 1rem 2rem;
             
             border-radius: 1rem;
+        }
+
+        .articles__col5{
+            img{
+                width: 60%;
+            }
         }
     }
 }

@@ -1,17 +1,19 @@
-.app__work{
+.app_work{
     width: 100%;
     height: 100%;
+    background: linear-gradient(140.6deg, #31539E 29.91%, #142962 89.79%);
+    border-radius: 0px 0px 75px 75px;
+    
 }
 
 .work__col{
-    width: 100%;
-    padding: 12rem 0rem 9rem 7rem ;
-    background: linear-gradient(140.6deg, #31539E 29.91%, #142962 89.79%);
-    border-radius: 0px 0px 125px 125px;
+    width: 83%;
+    padding: 18rem 0rem 2rem ;
     overflow: hidden;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1.1fr 0.6fr;
     gap: 4rem;
+    margin: 0 auto;
 
 
     .work__col1{
@@ -36,6 +38,13 @@
                 margin-right: 2rem;
                 background: #ACD5E6;
                 font-size: 20px;
+
+                transition: 0.9s ease-in-out;
+                cursor: pointer;
+                &:hover {
+                    background: var(--background);
+                    color: aliceblue;
+                }
     
             }
             .svg{
@@ -47,6 +56,12 @@
                 align-items: center;
                 justify-content: center;
                 // padding: 10px 35px;
+                transition: 0.9s ease-in-out;
+                cursor: pointer;
+                &:hover {
+                    background: var(--background);
+                    color: aliceblue;
+                }
             }
         }
     

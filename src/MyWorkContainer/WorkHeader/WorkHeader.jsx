@@ -3,11 +3,16 @@ import React from 'react'
 import './WorkHeader.scss'
 
 import { images } from '../../constant'
+import {motion} from 'framer-motion'
 
 const WorkHeader = () => {
   return (
-    <div className='app__work'>
-        <div className='work__col'>
+    <div className='app_work'>
+        <motion.div
+            whileInView={{ opacity: [0, 1] }}
+            transition={{ duration: 0.9 }}
+            className="work__col"
+          >
             <div className='work__col1'>
                 <h3>My Selected Projects</h3>
                 <p>
@@ -39,7 +44,7 @@ const WorkHeader = () => {
                     
                 </div>   
             </div>
-        </div>
+        </motion.div>
 
     </div>
   )

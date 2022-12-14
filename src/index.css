@@ -4,7 +4,7 @@
 
 :root {
   --font-base: "Space Grotesk", sans-serif;
-  --font-base2: "Raleway";
+  --font-base2: "Space Grotesk", sans-serif;
   --background: linear-gradient(121.53deg, #070B28 17.18%, #0A0D21 84.45%);
   --background2: #ACD5E6;
   --header: linear-gradient(121.53deg, #070B28 17.18%, #0A0D21 84.45%); 

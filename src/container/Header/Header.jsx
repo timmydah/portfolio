@@ -13,9 +13,14 @@ const Header = () => {
   return (
     <div className='head'>
       
-      <motion.div
+      {/* <motion.div
         whileInView={{ x: [-90, 0], opacity: [0, 100]}}
         transition = {{ duration: 0.5 }}
+        '
+      > */}
+      <motion.div
+        whileInView={{ opacity: [0, 1] }}
+        transition={{ duration: 1.0 }}
         id='home' className='app__header'
       >
         <div  className="app__header-info">

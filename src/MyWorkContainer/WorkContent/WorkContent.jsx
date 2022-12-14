@@ -2,6 +2,7 @@ import React from 'react'
 
 import './WorkContent.scss'
 import { images } from '../../constant'
+import {motion} from 'framer-motion'
 
 const allWork = [
     { 
@@ -32,9 +33,14 @@ const WorkContent = () => {
             <div className='workContent'>
                 <div className='workContent_col1'>
                     {allWork.map((work) => (
-                        <div className='workContent_col2'>
+                        // <div className='workContent_col2'>
+                        <motion.div
+                            whileInView={{ opacity: [0, 1] }}
+                            transition={{ duration: 0.9 }}
+                            className="workContent_col2"
+                        >
                             <div className='workContent_col3'>
-                                <h4>{work.title}</h4>
+                                <h3>{work.title}</h3>
                                 <p>{work.about}</p>
                                 <hr></hr>
                                 <p><span>Client:</span> Inioluwa</p>
@@ -54,7 +60,7 @@ const WorkContent = () => {
                             <div className='workContent_img'>
                                 <img src={images.work1} alt='work' />
                             </div>
-                        </div>
+                        </motion.div>
                     ))}
                 </div>
             </div>
