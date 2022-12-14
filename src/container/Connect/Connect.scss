@@ -72,15 +72,23 @@
             align-items: center;
             justify-content: center;
             margin: 0 1.5rem;
-            
+            animation: roll 3s infinite;
+            transform: rotate(0deg);
 
+            &:hover{
+                @keyframes roll {
+                    0% {
+                        transform: rotate(0);
+                    }
+                    100% {
+                        transform: rotate(360deg);
+                    }
+                }
+            }
+              
             img{
                 width: auto;
             }
-
-        &:hover{
-            width: 10%;
-        }
             
         }
 
@@ -95,16 +103,4 @@
         }
     }
 
-    @media screen and (max-width: 1200px) {
-        // div{
-        //     width: 124px;
-        //     height: 124px;
-
-        //     // img{
-        //     //     width: 0%;
-        //     // }
-        // }
-
-        
-    }
 }

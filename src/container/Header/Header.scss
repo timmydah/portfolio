@@ -46,6 +46,7 @@
             background: transparent;
             border: none;
             color: #174E86;
+            cursor: pointer;
             // box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
 
             &:hover{
@@ -57,7 +58,12 @@
             background: var(--button-color);
             border: none;
             border-radius: 6.96078px;
-            
+            cursor: pointer;
+            transition: 1.0s ease-in-out;
+            &:hover {
+                background-color: var(--main-color);
+                color: aliceblue;
+            }
         }
         
     }

@@ -6,6 +6,7 @@
   --font-base: "Space Grotesk", sans-serif;
   --font-base2: "Raleway";
   --background: linear-gradient(121.53deg, #070B28 17.18%, #0A0D21 84.45%);
+  --background2: #ACD5E6;
   --header: linear-gradient(121.53deg, #070B28 17.18%, #0A0D21 84.45%); 
   --main-color: #ACD5E6;
   --button-color: #174E86;
@@ -21,13 +22,16 @@
   --black-color: #000;
   --connect-div: #031527;
   --form-color: #AcD5E6;
+  --main2-color: #174E86;
 }
 
 [data-theme='light'] {
   /* --header: linear-gradient(140.6deg, #31539E 29.91%, #142962 89.79%); */
   --header: #31539E;
   --background: #ACD5E6;
+  --background2: linear-gradient(121.53deg, #070B28 17.18%, #0A0D21 84.45%);
   --main-color: #174E86;
+  --main2-color: #ACD5E6;
   --button-color: #ACD5E6;
   --primary-color: #000000;
   --dark-grey: #3C3C3C;

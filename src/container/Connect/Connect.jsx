@@ -39,7 +39,7 @@ const Connect = () => {
             <motion.div
             whileInView={{ opacity: 1}}
             // whileHover={{ scale:1.05}}
-            transition={{ duration: 0.5, type: 'tween'}}
+            // transition={{ duration: 0.5, type: 'tween'}}
             className='app__profile-items'
             key={media.title + index}
           >

@@ -59,6 +59,7 @@
         position: absolute;
         top: 50%;
         z-index: 1;
+        
 
         button{
             width: 50px;
@@ -66,23 +67,20 @@
             border-radius: 70px;
             background: #174E86;
             opacity: 0.3;
+            cursor: pointer;
 
         }
     }
 }
 
 .pp{
-    // display: flex;
-    // flex-direction: column;
-    // display: grid;
-    // grid-template-columns: repeat(auto, 1fr);
-    // gap: 12rem;
     display: flex;
     justify-content: center;
 }
 
 .app_profile-items{
     width: 100%;
+    cursor: grab;
 
     .space{
         background-color: var(--history-bg);

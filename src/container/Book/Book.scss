@@ -39,6 +39,12 @@
         padding: 1rem 1rem;
         border-radius: 100px;
         margin-left: 2rem;
+        // transition: 1.0s ease-in-out;
+        cursor: pointer;
+        &:hover {
+            padding: 1.1rem;
+            // transform: scale(1.02);
+        }
     }
 
     .book__icon{
