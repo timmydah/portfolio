@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar, Scroll, Footer } from '../../Component'
+import { Navbar2, Scroll, Footer } from '../../Component'
 import { WorkHeader, WorkContent } from '../../MyWorkContainer'
 
 
@@ -9,7 +9,7 @@ const Mywork = () => {
 
     return (
         <div className='ap mywork'>
-            <Navbar />
+            <Navbar2 />
             <Scroll />
             <WorkHeader />
             <WorkContent />
