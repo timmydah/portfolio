@@ -8,7 +8,7 @@
 
 .work__col{
     width: 83%;
-    padding: 18rem 0rem 2rem ;
+    padding: 11rem 0rem 2rem ;
     overflow: hidden;
     display: grid;
     grid-template-columns: 1.1fr 0.6fr;
@@ -68,9 +68,6 @@
     }
     
     .work__col2{
-        // flex: 1;
-        // width: 40%;
-    
         img{
             // max-width: 628px;
             width: 100%;
@@ -80,7 +77,7 @@
     @media screen and (max-width: 1200px) {  
         grid-template-columns: 1fr;
         
-        padding: 11rem 2rem 7rem;
+        padding: 8rem 2rem 3rem;
         border-radius: 0px 0px 65px 65px;
 
         .work__col2{
