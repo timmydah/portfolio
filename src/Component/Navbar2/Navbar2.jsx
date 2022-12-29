@@ -6,8 +6,6 @@ import { Link } from 'react-router-dom'
 
 import {motion} from 'framer-motion'
 import { HiMenuAlt4, HiX} from 'react-icons/hi'
-import { ImSun } from "react-icons/im";
-import { BsFillMoonFill } from "react-icons/bs";
 
 import {images} from '../../constant'
 
@@ -45,16 +43,6 @@ const Navbar2 = ({changeTheme, currentTheme}) => {
           </li>
 
         </ul>
-
-        
-        {/* Color theme */}
-        {/* <li className='app__flex themes' onClick={changeTheme}>
-          {currentTheme === 'dark' ? (
-            <ImSun className='light' />
-          ) : (
-            <BsFillMoonFill className='dark' />
-          )} 
-        </li> */}
 
         {/* Navbar-menu */}
         <div className='app__navbar-menu'>
