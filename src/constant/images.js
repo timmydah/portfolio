@@ -1,5 +1,5 @@
 import logo from '../asset/logo.png'
-import Image from '../asset/image.png'
+import Image from '../asset/image.webp'
 import sig from '../asset/sig.png'
 import background from '../asset/background.png'
 import background2 from '../asset/background2.png'

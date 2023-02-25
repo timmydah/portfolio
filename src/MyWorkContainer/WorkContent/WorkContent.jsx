@@ -25,7 +25,7 @@ const allWork = [
         title: 'FountainHead NFTs',
         about:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna pellentesque risus nec dictum cursus porttitor nisl. Sed laoreet.'
     }
-  ]
+]
 const WorkContent = () => {
     
     return (
@@ -42,7 +42,7 @@ const WorkContent = () => {
                             <div className='workContent_col3'>
                                 <h3>{work.title}</h3>
                                 <p>{work.about}</p>
-                                <hr></hr>
+                                {/* <hr></hr> */}
                                 <p><span>Client:</span> Inioluwa</p>
                                 <br></br>
                                 <p><span>Role:</span> Blockchain App Developer</p>

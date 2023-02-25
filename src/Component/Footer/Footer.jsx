@@ -14,32 +14,32 @@ const Footer = () => {
           <p>Connect with me</p>
           <div>
             <div className='sm-border'>
-              <a href='https://www.linkedin.com/in/grace-olayinka-a9a37a188' target="_blank">
+              <a href='https://www.linkedin.com/in/grace-olayinka-a9a37a188' target="_blank" rel="noreferrer">
                 <FaLinkedinIn className='sm'/>
               </a>
             </div>
             <div className='sm-border'>
-              <a href='https://twitter.com/graceomole3?s=21&t=kgJmisAScjnGXj5lcAm6Qw' target="_blank">
+              <a href='https://twitter.com/graceomole3?s=21&t=kgJmisAScjnGXj5lcAm6Qw' target="_blank" rel="noreferrer">
                 <FaTwitter className='sm'/>
               </a>
             </div>
             <div className='sm-border'>
-              <a href='https://iam-grace.medium.com/' target="_blank">
+              <a href='https://iam-grace.medium.com/' target="_blank" rel="noreferrer">
                 <FaMedium className='sm'/>
               </a>
             </div>
             <div className='sm-border'>
-              <a href='https://instagram.com/olayinka2241?igshid=YmMyMTA2M2Y=' target="_blank">
+              <a href='https://instagram.com/olayinka2241?igshid=YmMyMTA2M2Y=' target="_blank" rel="noreferrer">
                 <FaInstagram className='sm'/>
               </a>
             </div>
             <div className='sm-border'>
-              <a href='https://m.youtube.com/channel/UCenVuRqWJJTjAPMo7qH-1yQ?fbclid=PAAabLXZHMTyrcVUmkdIRHebkxJc9cQpxlK-jxRpJAunMNCN-6HFvih8A4PHU' target="_blank">
+              <a href='https://m.youtube.com/channel/UCenVuRqWJJTjAPMo7qH-1yQ?fbclid=PAAabLXZHMTyrcVUmkdIRHebkxJc9cQpxlK-jxRpJAunMNCN-6HFvih8A4PHU' target="_blank" rel="noreferrer">
                 <FaYoutube className='sm'/>
               </a>
             </div>
             <div className='sm-border'>
-              <a href='' target="_blank">
+              <a href='fff' target="_blank" rel="noreferrer">
                 <FaFacebookF className='sm'/>
               </a>
             </div>
