@@ -1,5 +1,5 @@
 import React  from 'react'
-import { Navbar2, Scroll, Footer } from '../../Component'
+import { Navbar, Scroll, Footer } from '../../Component'
 
 import {Header1, AllBooks} from '../../MybookContainer'
 
@@ -11,7 +11,7 @@ const MyBook = () => {
 
     return (
         <div className='ap myBook'>
-            <Navbar2 />
+            <Navbar />
             <Scroll />
             <Header1/>
             <AllBooks />

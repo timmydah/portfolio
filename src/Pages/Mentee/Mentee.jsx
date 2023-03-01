@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar2, Scroll, Footer } from '../../Component'
+import { Navbar, Scroll, Footer } from '../../Component'
 import MenteeForm from '../../MenteeContainer/MenteeForm/MenteeForm'
 import MenteeHeader from '../../MenteeContainer/MenteeHeader/MenteeHeader'
 
@@ -9,7 +9,7 @@ const Mentee = () => {
 
     return (
         <div className='ap mentee' >
-            <Navbar2 />
+            <Navbar />
             <Scroll />
             <MenteeHeader />
             <MenteeForm />
